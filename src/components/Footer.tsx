@@ -32,9 +32,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-highlight transition-colors">
-                  Testimonials
-                </a>
               </li>
               <li>
                 <a href="#" className="text-white/70 hover:text-highlight transition-colors">
@@ -50,12 +47,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="mailto:hello@example.com" className="text-white/70 hover:text-highlight transition-colors">
-                  hello@example.com
+                  nomorezhanje100@gmail.com
                 </a>
               </li>
               <li>
                 <a href="tel:+27123456789" className="text-white/70 hover:text-highlight transition-colors">
-                  +27 12 345 6789
+                  +27 74 531 9940
                 </a>
               </li>
               <li>
@@ -70,19 +67,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-white/70 hover:text-highlight transition-colors p-2">
+              <a href="www.linkedin.com/in/nomore-zhanje" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-white/70 hover:text-highlight transition-colors p-2">
-                <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-white/70 hover:text-highlight transition-colors p-2">
-                <Instagram size={20} />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-white/70 hover:text-highlight transition-colors p-2">
+              <a href="https://github.com/nomorezhanje23/" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
               </a>
@@ -92,7 +81,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/50 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} James Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Nomore Zhanje. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-white/50 text-sm hover:text-white transition-colors">

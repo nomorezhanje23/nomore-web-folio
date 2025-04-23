@@ -29,7 +29,7 @@ const Header = () => {
     >
       <div className="container-custom flex justify-between items-center">
         <a href="#" className="text-xl font-bold tracking-tighter text-white">
-          JAMES DOE
+          NOMORE ZHANJE
         </a>
 
         {/* Mobile Menu */}

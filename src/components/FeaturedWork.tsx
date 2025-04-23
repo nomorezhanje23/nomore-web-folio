@@ -14,10 +14,10 @@ const FeaturedWork = () => {
     {
       id: 2,
       title: "Financial Dashboard",
-      description: "Data visualization tool for financial analytics",
+      description: "Data visualization tool for financial analytics. Username: user@nextmail.com & password: 123456",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       tags: ["TypeScript", "Next.js", "D3.js", "PostgreSQL"],
-      link: "#"
+      link: "https://dashboard-nextjs-brown-theta.vercel.app/"
     },
     {
       id: 3,

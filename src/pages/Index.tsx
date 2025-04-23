@@ -23,7 +23,7 @@ const Index = () => {
             </p>
             <p className="text-white/80 leading-relaxed">
               When I'm not coding, you'll find me exploring the mountains around Cape Town, 
-              experimenting with photography, or contributing to open-source projects. 
+              experimenting with photography, or embaking on a drive deep in nature. 
               I'm always open to discussing new projects and opportunities to create something amazing together.
             </p>
           </div>
