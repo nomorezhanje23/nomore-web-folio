@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 
 const FeaturedWork = () => {
@@ -49,14 +50,15 @@ const FeaturedWork = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {projects.map((project) => (
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              image={project.image}
-              tags={project.tags}
-              link={project.link}
-            />
+            <Link key={project.id} to={`/project/${project.id}`}>
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                tags={project.tags}
+                link={project.link}
+              />
+            </Link>
           ))}
         </div>
       </div>

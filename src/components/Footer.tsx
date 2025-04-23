@@ -1,5 +1,4 @@
-
-import { MapPin, Linkedin, Twitter, Instagram, Github } from "lucide-react";
+import { MapPin, Linkedin, Facebook, Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -27,15 +26,13 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-highlight transition-colors">
-                  Services
+                <a href="/voluntary-work" className="text-white/70 hover:text-highlight transition-colors">
+                  Voluntary Work
                 </a>
               </li>
               <li>
-              </li>
-              <li>
                 <a href="#" className="text-white/70 hover:text-highlight transition-colors">
-                  Case Studies
+                  Services
                 </a>
               </li>
             </ul>
@@ -67,13 +64,17 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="www.linkedin.com/in/nomore-zhanje" className="text-white/70 hover:text-highlight transition-colors p-2">
+              <a href="https://www.linkedin.com/in/nomore-zhanje" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a href="https://github.com/nomorezhanje23/" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
+              </a>
+              <a href="https://facebook.com/your-profile" className="text-white/70 hover:text-highlight transition-colors p-2">
+                <Facebook size={20} />
+                <span className="sr-only">Facebook</span>
               </a>
             </div>
           </div>
