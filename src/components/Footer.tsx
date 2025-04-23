@@ -1,5 +1,5 @@
 
-import { MapPin, Linkedin, Twitter, Instagram, Github } from "lucide-react";
+import { MapPin, Linkedin, Facebook, Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -32,10 +32,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-              </li>
-              <li>
-                <a href="#" className="text-white/70 hover:text-highlight transition-colors">
-                  Case Studies
+                <a href="/voluntary-work" className="text-white/70 hover:text-highlight transition-colors">
+                  Voluntary Work
                 </a>
               </li>
             </ul>
@@ -70,6 +68,10 @@ const Footer = () => {
               <a href="www.linkedin.com/in/nomore-zhanje" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
+              </a>
+              <a href="https://www.facebook.com/nomore.zhanje" className="text-white/70 hover:text-highlight transition-colors p-2">
+                <Facebook size={20} />
+                <span className="sr-only">Facebook</span>
               </a>
               <a href="https://github.com/nomorezhanje23/" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Github size={20} />

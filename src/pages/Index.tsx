@@ -9,6 +9,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-dark text-white">
       <Header />
+      <div className="pt-20 pb-8">
+        <div className="container-custom">
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Portfolio Introduction"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
       <Hero />
       <TechReel />
       <FeaturedWork />
