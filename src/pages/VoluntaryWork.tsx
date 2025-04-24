@@ -13,7 +13,7 @@ const VoluntaryWork = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c" 
+                  src="/lovable-uploads/2e0a16f5-1b39-4202-a414-c3487bbcbef5.png" 
                   alt="Missionary Work"
                   className="rounded-lg shadow-xl w-full" 
                 />

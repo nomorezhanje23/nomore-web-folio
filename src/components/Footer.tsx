@@ -1,4 +1,5 @@
 import { MapPin, Linkedin, Facebook, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,19 +22,19 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Work</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#work" className="text-white/70 hover:text-highlight transition-colors">
+                <Link to="/#work" className="text-white/70 hover:text-highlight transition-colors">
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/voluntary-work" className="text-white/70 hover:text-highlight transition-colors">
+                <Link to="/voluntary-work" className="text-white/70 hover:text-highlight transition-colors">
                   Voluntary Work
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-highlight transition-colors">
+                <Link to="/services" className="text-white/70 hover:text-highlight transition-colors">
                   Services
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -43,19 +44,19 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
-                <a href="mailto:hello@example.com" className="text-white/70 hover:text-highlight transition-colors">
+                <a href="mailto:nomorezhanje100@gmail.com" className="text-white/70 hover:text-highlight transition-colors">
                   nomorezhanje100@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+27123456789" className="text-white/70 hover:text-highlight transition-colors">
+                <a href="tel:+27745319940" className="text-white/70 hover:text-highlight transition-colors">
                   +27 74 531 9940
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-highlight transition-colors">
+                <Link to="/schedule" className="text-white/70 hover:text-highlight transition-colors">
                   Schedule a call
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -72,7 +73,7 @@ const Footer = () => {
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="https://facebook.com/your-profile" className="text-white/70 hover:text-highlight transition-colors p-2">
+              <a href="https://www.facebook.com/nomoretawanda.zhanje" className="text-white/70 hover:text-highlight transition-colors p-2">
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
               </a>
@@ -84,14 +85,6 @@ const Footer = () => {
           <p className="text-white/50 text-sm mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} Nomore Zhanje. All rights reserved.
           </p>
-          <div className="flex space-x-6">
-            <a href="#" className="text-white/50 text-sm hover:text-white transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-white/50 text-sm hover:text-white transition-colors">
-              Terms of Service
-            </a>
-          </div>
         </div>
       </div>
     </footer>
