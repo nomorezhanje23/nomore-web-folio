@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 
@@ -6,11 +5,11 @@ const FeaturedWork = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A modern shopping experience with React and Node.js",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      title: "Luxury Tours & Events Platform",
+      description: "A bespoke travel experience platform showcasing the beauty of Cape Town",
+      image: "https://images.unsplash.com/photo-1606799955515-85468ee78c26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhcGUlMjB0b3dufGVufDB8fDB8fHww",
       tags: ["React", "Node.js", "MongoDB", "AWS"],
-      link: "#"
+      link: "https://preview--lcte-journeys-unveiled.lovable.app/"
     },
     {
       id: 2,

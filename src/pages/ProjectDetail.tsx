@@ -1,4 +1,3 @@
-
 import { useParams, Link } from 'react-router-dom';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -10,13 +9,13 @@ const ProjectDetail = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A cutting-edge online shopping experience built with modern technologies. This platform offers a seamless shopping experience with features like real-time inventory management, secure payment processing, and responsive design for all devices.",
-      fullDescription: "This e-commerce platform revolutionizes online shopping by combining intuitive design with powerful functionality. The platform includes features such as real-time inventory tracking, secure payment processing through Stripe, user authentication, and a responsive design that works flawlessly across all devices. The admin dashboard provides comprehensive analytics and inventory management tools.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      title: "Luxury Tours & Events Platform",
+      description: "A bespoke travel experience platform showcasing the beauty of Cape Town",
+      fullDescription: "LCTE - Journeys Unveiled is a premium travel experience platform that offers curated tours and exclusive events across Cape Town and its surrounding areas. The platform provides users with immersive virtual previews of destinations, seamless booking experiences, and personalized itinerary creation. Users can discover hidden gems of Cape Town, from wine tours in Stellenbosch to private yacht charters along the Atlantic Seaboard, all within an elegant, user-friendly interface. The platform also offers event planning services for corporate retreats, weddings, and special occasions, showcasing the natural beauty and cultural richness of the region.",
+      image: "https://images.unsplash.com/photo-1606799955515-85468ee78c26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhcGUlMjB0b3dufGVufDB8fDB8fHww",
       tags: ["React", "Node.js", "MongoDB", "AWS"],
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Redux", "Express", "Stripe API", "JWT Authentication"],
-      link: "#"
+      technologies: ["React", "Node.js", "MongoDB", "AWS", "Redux", "Express", "Payment Gateway Integration", "Google Maps API"],
+      link: "https://preview--lcte-journeys-unveiled.lovable.app/"
     },
     {
       id: 2,
