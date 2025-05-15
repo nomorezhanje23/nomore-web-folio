@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 
@@ -21,11 +22,11 @@ const FeaturedWork = () => {
     },
     {
       id: 3,
-      title: "Social Media App",
-      description: "Connect and share with friends and communities",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      title: "Logistics Management System for Travel & Tours",
+      description: "Complete logistics solution for travel agencies and tour operators",
+      image: "https://plus.unsplash.com/premium_photo-1681487855134-d6c0434f91f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["React Native", "Firebase", "GraphQL", "Redux"],
-      link: "#"
+      link: "https://preview--choix-voyage-logistics-hub.lovable.app/"
     },
     {
       id: 4,

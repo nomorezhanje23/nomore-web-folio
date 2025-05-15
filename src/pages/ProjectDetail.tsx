@@ -1,3 +1,4 @@
+
 import { useParams, Link } from 'react-router-dom';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -29,13 +30,13 @@ const ProjectDetail = () => {
     },
     {
       id: 3,
-      title: "Social Media App",
-      description: "Connect and share with friends and communities",
-      fullDescription: "A modern social media platform that prioritizes user engagement and community building. The app features real-time messaging, media sharing, community forums, and personalized content feeds. Advanced features include AI-powered content moderation, custom emoji support, and seamless mobile integration.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      title: "Logistics Management System for Travel & Tours",
+      description: "Complete logistics solution for travel agencies and tour operators",
+      fullDescription: "Choix Voyage Logistics Hub is a comprehensive management system designed specifically for travel agencies and tour operators. This powerful platform streamlines operations by integrating itinerary planning, inventory management, vehicle tracking, and customer relationship management into one cohesive system. It features real-time fleet monitoring, automated scheduling for tours and transfers, dynamic pricing models, and comprehensive reporting dashboards. The system optimizes route planning to reduce operational costs while enhancing the customer experience with timely service delivery. Its user-friendly interface allows travel agencies to efficiently manage logistics across multiple destinations while maintaining quality service standards.",
+      image: "https://plus.unsplash.com/premium_photo-1681487855134-d6c0434f91f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["React Native", "Firebase", "GraphQL", "Redux"],
-      technologies: ["React Native", "Firebase", "GraphQL", "Redux", "WebSocket", "Push Notifications", "Cloud Functions"],
-      link: "#"
+      technologies: ["React", "Firebase", "GraphQL", "Redux", "Google Maps API", "Real-time Tracking", "Automated Scheduling", "Route Optimization"],
+      link: "https://preview--choix-voyage-logistics-hub.lovable.app/"
     },
     {
       id: 4,
