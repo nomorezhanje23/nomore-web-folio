@@ -40,13 +40,13 @@ const ProjectDetail = () => {
     },
     {
       id: 4,
-      title: "AI Content Generator",
-      description: "Machine learning powered content creation tool",
-      fullDescription: "An innovative AI-powered platform that assists in content creation across multiple formats. The tool leverages advanced machine learning algorithms to generate high-quality, contextually relevant content. Features include style customization, tone adjustment, and multi-language support.",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-      tags: ["Python", "TensorFlow", "Flask", "React"],
-      technologies: ["Python", "TensorFlow", "Flask", "React", "OpenAI API", "Docker", "Redis"],
-      link: "#"
+      title: "Tour Track Connect",
+      description: "Real-time tour guide and traveler tracking application with geo-location features",
+      fullDescription: "Tour Track Connect is an innovative location tracking platform designed specifically for tour operators and guides. This application provides real-time location tracking for both guides and travelers, ensuring safety and coordination throughout the tour experience. The platform features interactive maps with custom points of interest, proximity alerts for when travelers stray too far from the group, emergency SOS functionality, and offline capabilities for remote areas with limited connectivity. Tour operators can monitor multiple groups simultaneously through an intuitive dashboard, while travelers benefit from enhanced safety features and informational content about their surroundings. The app also includes communication tools, itinerary management, and analytics to help tour companies improve their service delivery.",
+      image: "https://plus.unsplash.com/premium_photo-1737066451197-93d342a476c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYWNrZXIlMjBhcHAlMjBkcml2ZXJ8ZW58MHx8MHx8fDA%3D",
+      tags: ["React", "Express", "MongoDB", "Socket.io"],
+      technologies: ["React", "Express", "MongoDB", "Socket.io", "Mapbox API", "Geolocation", "Push Notifications", "JWT Authentication"],
+      link: "https://preview--tour-pulse-connect.lovable.app/"
     }
   ];
 
