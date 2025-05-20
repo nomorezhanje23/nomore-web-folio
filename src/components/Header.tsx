@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,9 +29,9 @@ const Header = () => {
       }`}
     >
       <div className="container-custom flex justify-between items-center">
-        <a href="#" className="text-xl font-bold tracking-tighter text-white">
+        <Link to="/" className="text-xl font-bold tracking-tighter text-white">
           NOMORE ZHANJE
-        </a>
+        </Link>
 
         {/* Mobile Menu */}
         <button className="md:hidden text-white" onClick={toggleMenu}>
@@ -39,20 +40,20 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <a href="#" className="nav-link">Home</a>
-          <a href="#work" className="nav-link">Work</a>
-          <a href="#about" className="nav-link">About</a>
-          <a href="#contact" className="nav-link">Contact</a>
+          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/#work" className="nav-link">Work</Link>
+          <Link to="/#about" className="nav-link">About</Link>
+          <Link to="/#contact" className="nav-link">Contact</Link>
         </nav>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="fixed inset-0 bg-dark/95 z-40 flex flex-col items-center justify-center md:hidden">
             <nav className="flex flex-col space-y-8 text-center">
-              <a href="#" className="text-xl nav-link" onClick={toggleMenu}>Home</a>
-              <a href="#work" className="text-xl nav-link" onClick={toggleMenu}>Work</a>
-              <a href="#about" className="text-xl nav-link" onClick={toggleMenu}>About</a>
-              <a href="#contact" className="text-xl nav-link" onClick={toggleMenu}>Contact</a>
+              <Link to="/" className="text-xl nav-link" onClick={toggleMenu}>Home</Link>
+              <Link to="/#work" className="text-xl nav-link" onClick={toggleMenu}>Work</Link>
+              <Link to="/#about" className="text-xl nav-link" onClick={toggleMenu}>About</Link>
+              <Link to="/#contact" className="text-xl nav-link" onClick={toggleMenu}>Contact</Link>
             </nav>
           </div>
         )}
