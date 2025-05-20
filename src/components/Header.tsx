@@ -22,6 +22,18 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Handle smooth scrolling to sections
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    // Close mobile menu if it's open
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -41,9 +53,9 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           <Link to="/" className="nav-link">Home</Link>
-          <Link to="/#work" className="nav-link">Work</Link>
-          <Link to="/#about" className="nav-link">About</Link>
-          <Link to="/#contact" className="nav-link">Contact</Link>
+          <a href="#work" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection("work"); }}>Work</a>
+          <a href="#about" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection("about"); }}>About</a>
+          <a href="#contact" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }}>Contact</a>
         </nav>
 
         {/* Mobile Navigation */}
@@ -51,9 +63,9 @@ const Header = () => {
           <div className="fixed inset-0 bg-dark/95 z-40 flex flex-col items-center justify-center md:hidden">
             <nav className="flex flex-col space-y-8 text-center">
               <Link to="/" className="text-xl nav-link" onClick={toggleMenu}>Home</Link>
-              <Link to="/#work" className="text-xl nav-link" onClick={toggleMenu}>Work</Link>
-              <Link to="/#about" className="text-xl nav-link" onClick={toggleMenu}>About</Link>
-              <Link to="/#contact" className="text-xl nav-link" onClick={toggleMenu}>Contact</Link>
+              <a href="#work" className="text-xl nav-link" onClick={(e) => { e.preventDefault(); scrollToSection("work"); }}>Work</a>
+              <a href="#about" className="text-xl nav-link" onClick={(e) => { e.preventDefault(); scrollToSection("about"); }}>About</a>
+              <a href="#contact" className="text-xl nav-link" onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }}>Contact</a>
             </nav>
           </div>
         )}
