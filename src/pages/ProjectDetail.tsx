@@ -40,13 +40,13 @@ const ProjectDetail = () => {
     },
     {
       id: 4,
-      title: "Tour Track Connect",
-      description: "Real-time tour guide and traveler tracking application with geo-location features",
-      fullDescription: "Tour Track Connect is an innovative location tracking platform designed specifically for tour operators and guides. This application provides real-time location tracking for both guides and travelers, ensuring safety and coordination throughout the tour experience. The platform features interactive maps with custom points of interest, proximity alerts for when travelers stray too far from the group, emergency SOS functionality, and offline capabilities for remote areas with limited connectivity. Tour operators can monitor multiple groups simultaneously through an intuitive dashboard, while travelers benefit from enhanced safety features and informational content about their surroundings. The app also includes communication tools, itinerary management, and analytics to help tour companies improve their service delivery.",
-      image: "https://plus.unsplash.com/premium_photo-1737066451197-93d342a476c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYWNrZXIlMjBhcHAlMjBkcml2ZXJ8ZW58MHx8MHx8fDA%3D",
-      tags: ["React", "Express", "MongoDB", "Socket.io"],
-      technologies: ["React", "Express", "MongoDB", "Socket.io", "Mapbox API", "Geolocation", "Push Notifications", "JWT Authentication"],
-      link: "https://preview--tour-pulse-connect.lovable.app/"
+      title: "Youth Event Hub",
+      description: "A dynamic platform connecting young people through community events and activities",
+      fullDescription: "Youth Event Hub is a comprehensive community platform designed to bring young people together through organized events and activities. This vibrant platform serves as a central hub where youth can discover, create, and participate in various community events ranging from sports tournaments and creative workshops to volunteer opportunities and social gatherings. The application features an intuitive event calendar, user-friendly event creation tools, RSVP management, and community messaging features. Young people can easily find events that match their interests, connect with like-minded peers, and build meaningful relationships within their community. The platform also includes features for event organizers to manage registrations, send updates, and track engagement metrics, fostering a strong sense of community and belonging among youth participants.",
+      image: "/lovable-uploads/daafd15f-0f74-4274-92da-e1e4522b8e59.png",
+      tags: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
+      technologies: ["React", "TypeScript", "Supabase", "Tailwind CSS", "Real-time Updates", "Event Management", "User Authentication", "Community Features"],
+      link: "https://preview--bellville-stake-connect.lovable.app/"
     }
   ];
 

@@ -30,11 +30,11 @@ const FeaturedWork = () => {
     },
     {
       id: 4,
-      title: "Tour Track Connect",
-      description: "Real-time tour guide and traveler tracking application with geo-location features",
-      image: "https://plus.unsplash.com/premium_photo-1737066451197-93d342a476c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYWNrZXIlMjBhcHAlMjBkcml2ZXJ8ZW58MHx8MHx8fDA%3D",
-      tags: ["React", "Express", "MongoDB", "Socket.io"],
-      link: "https://preview--tour-pulse-connect.lovable.app/"
+      title: "Youth Event Hub",
+      description: "A dynamic platform connecting young people through community events and activities",
+      image: "/lovable-uploads/daafd15f-0f74-4274-92da-e1e4522b8e59.png",
+      tags: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
+      link: "https://preview--bellville-stake-connect.lovable.app/"
     }
   ];
 
